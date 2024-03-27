@@ -27,7 +27,7 @@ jobs:
       run: |
         docker image build . -t ivanhdzrz/simple-graphql:0.0.2
     - name: Pushing image
-      run: docker push ivanhdzrz/simple-graphql:0.0.2 .
+      run: docker push ivanhdzrz/simple-graphql:0.0.2
         
 #  - name: Build the Docker image
 #   run: docker build . --file Dockerfile --tag my-image-name:$(date +%s)
